@@ -1,0 +1,234 @@
+/*CSS Custom Properties or Variables*/
+:root
+--primaryColor: ;
+--secundaryColor: ;
+
+/*Global Reset*/
+*{
+	margin:0 ;
+	padding:0;
+} 
+body{
+	
+	font-family: "poppins";
+	width: 100%;
+}
+header{
+	max-width: 90%;
+	margin: 0 auto;
+}
+.container-header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header img, .hero{
+	background-color: lightgreen;
+	border-radius: 12px;
+	width: 100%;
+	height: 370px;
+}
+.box-logo{
+	border: solid 1px;
+	border-radius: 20px;
+	padding:  3px 20px;
+	margin-left: 20px;
+}
+h1.logo{
+	font-size: 1.5em;
+}
+span{
+	color: lightgreen;
+}
+header .menu{
+	margin-right: 15px;
+	width:  70%;
+}
+.menu ul.menu-container{
+	display: flex;
+	justify-content: space-between;
+}
+.menu ul.menu-container li{
+	list-style-type: none;
+
+}
+.menu ul.menu-container li a{
+	color:  black;
+	text-decoration: none;
+}
+ .wrapper{
+
+	max-width: 90%;
+	margin: 0 auto;
+}
+.descServicios{
+	text-align: center;
+	width: 100%;
+}
+.tours-grand-container{
+	margin-top: px;
+	padding-top:10px ;
+	height: 500px;
+}
+
+
+.toursContainer{
+	
+	display: flex;
+	justify-content:space-around;
+}
+.titleTours, h2{
+	font-size: 1.2em;
+}
+.hotelContainer{
+	display: flex;
+	justify-content: space-evenly;
+}
+.villasContainer{
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 10px;
+	padding-bottom: 15px;
+}
+.tourBox, .hotelBox, .villasBox{
+	border: solid 1px;
+	border-radius: 12px;
+	width: 260px;
+	text-align: center;
+	margin-bottom: 10px;
+	padding-bottom: 15px;
+}
+.tourBox{
+}
+.imgTour, .imgHotel, .imgVillas{
+	width: 200px;
+	height: 200px;
+}
+.ctaTours, input{
+	border: solid 1px gray;
+	border-radius: 12px;
+	padding: 10px 25px;
+}
+.imgHotel{
+	margin-top: 15px;
+}
+.imgExcursiones{
+	width: 150px;
+	height: 150px;
+}
+.imgCrucero{
+	border-radius: 40px;
+	width: 590px;
+	height: 220px;
+
+}
+.excContainer{
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 10px;
+	padding-bottom: 15px;
+}
+.excursiones{
+	border: solid 1px;
+	border-radius: 12px;
+	padding: 20px;
+	width: 43%;
+	
+}
+.cruceroContainer{
+	border: solid 1px;
+	border-radius: 12px;
+	width: 95%;
+	height: 400px;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	margin: 0 auto;
+	}
+	
+	/*Estos los estilos para el RESUMEN DEL BLOG*/
+	.resumenBlog{
+		border: solid 1px;
+		border-radius: 12px;
+		padding-left: 10px;
+		width: 94%;
+		margin: 0 auto;
+	}
+.colIzquierda, .colDerecha{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+.resumen-container{
+		margin-left: 8px;
+		margin-top: -10px;
+		margin-bottom: 40px;
+		}
+	.articulo{
+		border: solid 1px;
+		border-radius: 12px;
+		max-width: 40%;
+	}
+	.title-articulo{
+		font-size: 25px;
+		text-align: justify;
+		margin-bottom: -15px;
+	}
+	.resumen-articulo{
+		line-height: 1.3;
+		margin-top: 20px;
+		
+	}
+	.imgArticulo{
+		width: 200px;
+		height: 200px;
+		padding: 15px 0;
+		margin-left: 8px;
+	}
+	.btn-leer-container{
+		border: solid 1px;
+		border-radius: 8px;
+		width:  90px;
+		padding:  5px 10px;
+	}
+	a.btn-leer{
+		text-decoration: none;
+	}
+
+	.articulo{
+		display: flex;
+		margin-bottom: 20px;
+	}
+/*Estos son los Estilos para el FOOTER*/
+footer{
+	margin-top: 20px;
+	width:100%;
+}
+.foo-container{
+	display: flex;
+	justify-content: space-between;
+	width:  85%;
+	margin:  0 auto;
+}
+.foo-boxes{
+	border:  solid 1px;
+	border-radius: 12px;
+	width: 22%;
+	height: 300px;
+}
+.foo-title{
+	text-align: center;
+}
+.foo-link{}
+.foo-link li{
+	list-style-type: none;
+	line-height: 2;
+}
+.foo-link li a{
+	color: black;
+	text-decoration: none;
+}
